@@ -86,7 +86,7 @@
       "role": "Data Analyst",
       "year": "2025",
       "link": "https://github.com/chanchalram1315-cmd/ipl-sql-analysis",
-      "image": "",
+      "image": "/projects/ipl-match-player-performance.png",
       "highlight": true
     },
     {
@@ -98,7 +98,7 @@
       "role": "Data Analyst",
       "year": "2025",
       "link": "https://github.com/chanchalram1315-cmd/Credit_Card_Fraud_Analytics",
-      "image": "",
+      "image": "/projects/credit-card-fraud-analytics.png",
       "highlight": true
     },
     {
@@ -110,7 +110,7 @@
       "role": "Data Analyst",
       "year": "2025",
       "link": "https://github.com/chanchalram1315-cmd/netflix-eda-python",
-      "image": "",
+      "image": "/projects/netflix-titles-eda.png",
       "highlight": true
     }
   ],
