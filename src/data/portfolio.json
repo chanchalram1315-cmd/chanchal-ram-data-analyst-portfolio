@@ -1,0 +1,126 @@
+{
+  "profile": {
+    "name": "Chanchal Ram",
+    "shortName": "Chanchal",
+    "tagline": "Data Analyst | SQL • Power BI • Excel • Python",
+    "role": "Data Analyst",
+    "specialization": "SQL · Power BI · Excel · Python",
+    "location": "Ambernath, Maharashtra, India",
+    "yearsOfExperience": "Entry-level",
+    "bio": "Proficient in data cleaning, exploratory data analysis, dashboard reporting, and insight generation, with a Bachelor of Computer Applications background and hands-on experience in SQL, Excel, Power BI, and Python (Pandas). Building strong analytical, decision-making, and problem-solving abilities with a learning mindset and proactive approach.",
+    "avatarSvg": "/src/assets/img/avatar.svg",
+    "social": {
+      "github": "https://github.com/chanchalram1315-cmd",
+      "instagram": "",
+      "linkedin": "https://linkedin.com/in/chanchal-ram-b8aa43362",
+      "email": "chanchalram2715@gmail.com",
+      "phone": "+91-7977328436",
+      "website": ""
+    }
+  },
+  "skills": {
+    "categories": [
+      {
+        "name": "Data Analysis",
+        "items": ["Data Cleaning", "Exploratory Data Analysis (EDA)", "KPI Reporting", "Business Intelligence"]
+      },
+      {
+        "name": "Data Tools",
+        "items": ["SQL", "Advanced Excel", "Power BI (Basics)", "SQLite"]
+      },
+      {
+        "name": "Python & Visualization",
+        "items": ["Python (Pandas)", "Data Visualization", "Matplotlib", "Seaborn"]
+      },
+      {
+        "name": "Reporting",
+        "items": ["Dashboard Reporting", "Insight Generation", "Data Validation"]
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Deloitte (Forage)",
+      "role": "Data Analytics Job Simulation",
+      "period": "2026",
+      "location": "Virtual",
+      "summary": "Completed a virtual data analytics job simulation focused on turning data into practical business insights.",
+      "highlights": [
+        "Applied data analytics concepts through a Deloitte job simulation",
+        "Practiced interpreting data for business decision-making",
+        "Data Analytics Certification — PW Skills, in association with NSDC & PwC (2026)"
+      ]
+    },
+    {
+      "company": "TATA (Forage)",
+      "role": "GenAI Powered Data Analyst Job Simulation",
+      "period": "2026",
+      "location": "Virtual",
+      "summary": "Completed a virtual simulation exploring the application of generative AI in data analyst workflows.",
+      "highlights": [
+        "Explored GenAI-powered data analysis workflows",
+        "Practiced translating analysis into actionable insights",
+        "SQL (Advanced) — HackerRank (2026)"
+      ]
+    },
+    {
+      "company": "Oneroadmap",
+      "role": "Data Analytics Job Simulation",
+      "period": "2026",
+      "location": "Virtual",
+      "summary": "Completed a virtual data analytics simulation to strengthen practical analysis and reporting skills.",
+      "highlights": [
+        "Applied data analysis and reporting concepts in a simulated setting",
+        "Data Visualization — Kaggle",
+        "Introduction to Copilot for Startups — Simplilearn"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "ipl-match-player-performance-analysis",
+      "title": "IPL Match & Player Performance Analysis",
+      "subtitle": "SQL · SQLite · Data Visualization",
+      "description": "Queried 134K+ ball-by-ball records across 1,158 IPL matches (2008–2025) using advanced SQL joins, subqueries, and window functions to analyze toss-decision impact and venue-wise scoring patterns. Delivered an interactive HTML dashboard visualizing performance metrics at scale, later rebuilt in Power BI for comparison.",
+      "stack": ["SQL", "SQLite", "Data Visualization", "Power BI"],
+      "role": "Data Analyst",
+      "year": "2025",
+      "link": "https://github.com/chanchalram1315-cmd/ipl-sql-analysis",
+      "image": "",
+      "highlight": true
+    },
+    {
+      "id": "credit-card-fraud-analytics",
+      "title": "Credit Card Fraud Analytics",
+      "subtitle": "SQL · Power BI · Excel",
+      "description": "Built an interactive Power BI dashboard analyzing fraud trends, customer spending, and transaction patterns across multiple KPI dimensions to surface data-driven business insights. Used SQL for data extraction and transformation, and Excel for data validation.",
+      "stack": ["SQL", "Power BI", "Excel", "KPI Reporting"],
+      "role": "Data Analyst",
+      "year": "2025",
+      "link": "https://github.com/chanchalram1315-cmd/Credit_Card_Fraud_Analytics",
+      "image": "",
+      "highlight": true
+    },
+    {
+      "id": "netflix-titles-data-cleaning-eda",
+      "title": "Netflix Titles — Data Cleaning & EDA",
+      "subtitle": "Python · Pandas · Matplotlib · Seaborn",
+      "description": "Cleaned and standardized 8,800+ records containing 30%+ missing values using Pandas, performing exploratory data analysis to identify content trends across countries, genres, and time periods. Visualized findings with Matplotlib and Seaborn to surface actionable content trends.",
+      "stack": ["Python", "Pandas", "Matplotlib", "Seaborn"],
+      "role": "Data Analyst",
+      "year": "2025",
+      "link": "https://github.com/chanchalram1315-cmd/netflix-eda-python",
+      "image": "",
+      "highlight": true
+    }
+  ],
+  "education": [
+    {
+      "institution": "Chhatrapati Shivaji Maharaj University",
+      "location": "Panvel, India",
+      "degree": "Bachelor of Computer Applications (BCA) — CGPA 7.62",
+      "period": "2025"
+    }
+  ],
+  "testimonials": []
+}
