@@ -4,23 +4,23 @@ const services = [
   // TODO: Move these service categories into portfolio.json when the data schema is expanded.
   {
     number: '01',
-    name: 'Backend Engineering',
-    description: 'Production-grade APIs, FastAPI/Django services, async pipelines, and the database design that holds it all together.',
+    name: 'Data Cleaning & Preparation',
+    description: 'Clean, validate, and transform raw data in Excel, SQL, and Python to create analysis-ready datasets.',
   },
   {
     number: '02',
-    name: 'AI / LLM Systems',
-    description: 'LLM extraction pipelines, semantic matching, RAG architectures, and prompt design for production reliability.',
+    name: 'Exploratory Data Analysis',
+    description: 'Explore trends, patterns, and key drivers using Python (Pandas), SQL, and clear visual summaries.',
   },
   {
     number: '03',
-    name: 'Frontend Development',
-    description: "React and Next.js applications with TypeScript, Tailwind, and motion design that doesn't get in the way.",
+    name: 'Power BI Dashboards',
+    description: 'Create interactive KPI dashboards and reporting views that turn data into actionable business insights.',
   },
   {
     number: '04',
-    name: 'Cloud & DevOps',
-    description: 'AWS, GCP, serverless architectures, CI/CD pipelines, and the boring infrastructure work that makes everything else possible.',
+    name: 'SQL & Excel Reporting',
+    description: 'Write SQL queries and build advanced Excel reports to monitor performance, track KPIs, and support decisions.',
   },
 ];
 
