@@ -8,12 +8,12 @@ const navLinks = [
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex justify-between items-center px-6 md:px-10 pt-6 md:pt-8">
+    <nav className="w-full flex justify-center gap-1 px-1 pt-6 sm:justify-between sm:px-6 md:px-10 md:pt-8">
       {navLinks.map((link) => (
         <a
           key={link.href}
           href={link.href}
-          className="text-[#D7E2EA] text-sm md:text-lg lg:text-[1.4rem] font-medium uppercase tracking-wider hover:opacity-70 transition-opacity duration-200"
+          className="shrink-0 text-[#D7E2EA] text-[0.6rem] sm:text-sm md:text-lg lg:text-[1.4rem] font-medium uppercase tracking-wide sm:tracking-wider hover:opacity-70 transition-opacity duration-200"
         >
           {link.label}
         </a>
