@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { useScroll } from 'framer-motion';
 import ProjectCard from './ProjectCard';
 import FadeIn from './FadeIn';
+import ViewAllProjectsCard from './ViewAllProjectsCard';
 import { usePortfolio } from '../hooks/usePortfolio';
 
 export default function ProjectsSection() {
@@ -47,6 +48,11 @@ export default function ProjectsSection() {
           progress={scrollYProgress}
         />
       ))}
+      <ViewAllProjectsCard
+        index={orderedProjects.length}
+        totalCards={orderedProjects.length + 1}
+        progress={scrollYProgress}
+      />
     </section>
   );
 }
