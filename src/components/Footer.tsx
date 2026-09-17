@@ -79,7 +79,7 @@ export default function Footer() {
                 {copied ? <Check className="h-3.5 w-3.5" /> : <Copy className="h-3.5 w-3.5" />}
               </button>
             </div>
-            <p className="text-sm sm:text-base">{profile.social.phone}</p>
+            {profile.social.phone ? <p className="text-sm sm:text-base">{profile.social.phone}</p> : null}
           </div>
 
           <SocialLinks className="flex-wrap" />
