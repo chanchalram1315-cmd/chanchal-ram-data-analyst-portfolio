@@ -2,7 +2,7 @@ import Navbar from './Navbar';
 import SocialLinks from './SocialLinks';
 import FadeIn from './FadeIn';
 import Magnet from './Magnet';
-import heroPortrait from '../assets/img/chanchal-ram-portrait.png';
+import heroPortrait from '../assets/img/chanchal-ram-portrait-cutout.png';
 
 export default function HeroSection() {
   return (
