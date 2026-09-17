@@ -1,4 +1,4 @@
-import { motion, MotionValue, useTransform } from 'framer-motion';
+import { motion, MotionValue, type MotionStyle, useTransform } from 'framer-motion';
 import LiveProjectButton from './LiveProjectButton';
 
 interface ProjectData {
@@ -54,14 +54,14 @@ export default function ProjectCard({ project, index, totalCards, progress }: Pr
   };
 
   return (
-    <div className="h-[85vh] flex items-start justify-center sticky top-24 md:top-32">
+    <div className="relative flex items-start justify-center py-3 sm:h-[85vh] sm:py-0 sm:sticky sm:top-24 md:top-32">
       <motion.div
         style={{
           scale,
-          top: `${index * 28}px`,
+          '--card-offset': `${index * 28}px`,
           backgroundColor: '#0C0C0C',
-        }}
-        className="absolute w-full max-w-[1760px] rounded-[40px] sm:rounded-[50px] md:rounded-[60px] border-2 border-[#D7E2EA] p-4 sm:p-6 md:p-8 flex flex-col gap-6 sm:gap-8 md:gap-10 origin-top"
+        } as MotionStyle & { '--card-offset': string }}
+        className="relative top-0 w-full max-w-[1760px] rounded-[40px] sm:absolute sm:top-[var(--card-offset)] sm:rounded-[50px] md:rounded-[60px] border-2 border-[#D7E2EA] p-4 sm:p-6 md:p-8 flex flex-col gap-6 sm:gap-8 md:gap-10 origin-top"
       >
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 sm:gap-4">
           <div className="flex items-center gap-6 sm:gap-8 md:gap-10">
