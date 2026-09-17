@@ -15,11 +15,11 @@ export default function ViewAllProjectsCard({
   const scale = useTransform(progress, [rangeStart, 1], [1, 1]);
 
   return (
-    <div className="h-[70vh] flex items-start justify-center sticky top-24 md:top-32">
+    <div className="h-[85vh] flex items-start justify-center sticky top-24 md:top-32">
       <motion.a
         href="/projects.html"
         style={{ scale, top: `${index * 28}px`, backgroundColor: '#0C0C0C' }}
-        className="absolute flex h-[min(58vw,420px)] min-h-[280px] w-full max-w-[1760px] flex-col items-center justify-center gap-6 rounded-[40px] border-2 border-[#D7E2EA] p-8 text-center origin-top transition-colors duration-300 hover:bg-[#151515] sm:rounded-[50px] md:rounded-[60px]"
+        className="absolute flex h-[calc(85vh-2rem)] w-full max-w-[1760px] flex-col items-center justify-center gap-6 rounded-[40px] border-2 border-[#D7E2EA] p-8 text-center origin-top transition-colors duration-300 hover:bg-[#151515] sm:h-[calc(85vh-3rem)] sm:rounded-[50px] md:rounded-[60px]"
       >
         <span className="text-[#D7E2EA]/60 text-xs font-medium uppercase tracking-[0.35em] sm:text-sm">
           Explore more work
