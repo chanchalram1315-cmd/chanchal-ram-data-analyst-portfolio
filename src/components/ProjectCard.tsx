@@ -22,7 +22,11 @@ export default function ProjectCard({ project, index, totalCards, progress }: Pr
   const targetScale = 1 - (totalCards - 1 - index) * 0.03;
   const scale = useTransform(progress, [rangeStart, rangeEnd], [1, targetScale]);
   const hasImage = Boolean(project.image);
-  const imageHeights = ['clamp(130px, 16vw, 230px)', 'clamp(160px, 22vw, 340px)'];
+  const imageHeights = [
+    'clamp(100px, 12vw, 170px)',
+    'clamp(130px, 16vw, 230px)',
+    'clamp(260px, 32vw, 440px)',
+  ];
 
   const renderPreview = (label: string, className: string, height?: string) => {
     if (hasImage) {
@@ -92,7 +96,11 @@ export default function ProjectCard({ project, index, totalCards, progress }: Pr
             {renderPreview('preview 2', 'w-full object-cover rounded-[30px] sm:rounded-[40px] md:rounded-[60px]', imageHeights[1])}
           </div>
 
-          {renderPreview('main', 'w-full md:w-[60%] object-cover rounded-[30px] sm:rounded-[40px] md:rounded-[60px] md:h-auto self-stretch')}
+          {renderPreview(
+            'main',
+            'w-full md:w-[60%] object-cover rounded-[30px] sm:rounded-[40px] md:rounded-[60px]',
+            imageHeights[2],
+          )}
         </div>
       </motion.div>
     </div>
