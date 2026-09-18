@@ -14,7 +14,7 @@ export default function HeroSection() {
 
         <FadeIn delay={0.15} y={40} className="mt-8 sm:mt-8 md:mt-2 overflow-hidden">
           <h1
-            className="hero-heading hero-name font-black uppercase leading-none tracking-tight whitespace-nowrap w-full"
+            className="hero-heading hero-name ml-2 font-black uppercase leading-none tracking-tight whitespace-nowrap w-full md:ml-0"
           >
             Hi, i&apos;m Chanchal
           </h1>
