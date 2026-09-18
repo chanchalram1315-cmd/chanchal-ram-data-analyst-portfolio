@@ -14,8 +14,7 @@ export default function HeroSection() {
 
         <FadeIn delay={0.15} y={40} className="mt-8 sm:mt-8 md:mt-2 overflow-hidden">
           <h1
-            className="hero-heading font-black uppercase leading-none tracking-tight whitespace-nowrap w-full"
-            style={{ fontSize: 'clamp(2rem, 11vw, 12rem)' }}
+            className="hero-heading hero-name font-black uppercase leading-none tracking-tight whitespace-nowrap w-full"
           >
             Hi, i&apos;m Chanchal
           </h1>

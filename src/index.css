@@ -26,6 +26,16 @@
   background-clip: text;
 }
 
+.hero-name {
+  font-size: clamp(1.5rem, 8vw, 3rem);
+}
+
+@media (min-width: 768px) {
+  .hero-name {
+    font-size: clamp(2rem, 11vw, 12rem);
+  }
+}
+
 .contact-btn {
   background: linear-gradient(
     135deg,

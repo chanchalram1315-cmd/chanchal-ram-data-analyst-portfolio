@@ -8,7 +8,7 @@ const navLinks = [
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex justify-center gap-1 px-1 pt-6 sm:justify-between sm:px-6 md:px-10 md:pt-8">
+    <nav className="w-full flex justify-center gap-2 px-2 pt-6 sm:justify-between sm:px-6 md:px-10 md:pt-8">
       {navLinks.map((link) => (
         <a
           key={link.href}
