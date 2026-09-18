@@ -53,6 +53,7 @@ export default function ProjectsSection() {
         totalCards={orderedProjects.length + 1}
         progress={scrollYProgress}
       />
+      <div className="h-[85vh] sm:hidden" aria-hidden="true" />
     </section>
   );
 }
