@@ -91,7 +91,7 @@ export default function ProjectCard({ project, index, totalCards, progress }: Pr
         </div>
 
         <div className="flex flex-col md:flex-row gap-4 md:gap-5 w-full">
-          <div className="flex flex-col gap-4 md:gap-5 w-full md:w-[40%]">
+          <div className="hidden w-full flex-col gap-4 md:flex md:w-[40%] md:gap-5">
             {renderPreview('preview 1', 'w-full object-cover rounded-[40px] sm:rounded-[50px] md:rounded-[60px]', imageHeights[0])}
             {renderPreview('preview 2', 'w-full object-cover rounded-[30px] sm:rounded-[40px] md:rounded-[60px]', imageHeights[1])}
           </div>
@@ -99,7 +99,7 @@ export default function ProjectCard({ project, index, totalCards, progress }: Pr
           {renderPreview(
             'main',
             'w-full md:w-[60%] object-cover rounded-[30px] sm:rounded-[40px] md:rounded-[60px]',
-            imageHeights[2],
+            'clamp(220px, 55vw, 440px)',
           )}
         </div>
       </motion.div>
