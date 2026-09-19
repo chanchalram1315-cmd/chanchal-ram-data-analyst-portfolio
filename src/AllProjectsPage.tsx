@@ -7,7 +7,7 @@ export default function AllProjectsPage() {
   return (
     <main className="min-h-screen bg-[#0C0C0C] px-5 py-6 text-[#D7E2EA] sm:px-8 sm:py-8 md:px-10 md:py-10">
       <header className="mx-auto flex max-w-6xl items-center justify-between gap-4">
-        <a href="/" className="text-xs font-medium uppercase tracking-[0.25em] text-[#D7E2EA]/70 hover:text-[#D7E2EA]">
+        <a href="/#projects" className="text-xs font-medium uppercase tracking-[0.25em] text-[#D7E2EA]/70 hover:text-[#D7E2EA]">
           ← Back to portfolio
         </a>
         <span className="text-xs font-medium uppercase tracking-[0.25em] text-[#D7E2EA]/50">
