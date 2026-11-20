@@ -32,7 +32,7 @@
 
 @media (min-width: 768px) {
   .hero-name {
-    font-size: clamp(2rem, 11vw, 12rem);
+    font-size: clamp(2rem, 10.5vw, 11.5rem);
   }
 }
 
